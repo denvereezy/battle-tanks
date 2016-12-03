@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Battle Tanks</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/tanks.css">
+	<link rel="shortcut icon" href="img/icon.png">
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: {
+        families: ['Lato:400,700:latin']
+      }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })();
+  </script>
+</head>
+
+<body>
+  <!-- <div class="container-fluid">
+    <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+      <div role="main"> -->
+        {{{body}}}
+      <!-- </div>
+    </div>
+  </div> -->
+  <script src="/js/jquery.min.js"></script>
+  <script>
+    function goBack() {
+      window.history.back();
+    }
+  </script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/socket.io.js"></script>
+	<script type="text/javascript" src="js/tanks.js"></script>
+	<script type="text/javascript" src="js/client.js"></script>
+</body>
+
+</html>
